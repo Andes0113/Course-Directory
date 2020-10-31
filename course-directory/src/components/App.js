@@ -12,7 +12,6 @@ import About from './About';
 import Teachers from './Teachers';
 import Courses from './Courses';
 import NotFound from './NotFound';
-import Featured from './Featured';
 const App = () => (
   <HashRouter basename="/course-directory">
     <div className="container">
