@@ -15,7 +15,7 @@ const Courses = ({match}) => (
     </div>
     
     {}
-    <Route exact path={match.path} render={() => <Redirect to={`${match.path}/html`} />} />
+    <Route exact path={match.path} render={() => <Redirect to={`${match.path}/core`} />} />
     <Route path={`${match.path}/core`} render={()=> <CourseContainer data = {HTMLCourses} />} />
     <Route path={`${match.path}/elective`} render={()=> <CourseContainer data = {CSSCourses} />} />
     <Route path={`${match.path}/accelerated`} render={()=> <CourseContainer data = {JSCourses} />} />
