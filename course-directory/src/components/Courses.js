@@ -8,17 +8,17 @@ const Courses = ({match}) => (
     <div className="course-header group">
       <h2>Courses</h2> 
       <ul className="course-nav">
-        <li><NavLink to={`${match.url}/html`}>HTML</NavLink></li>
-        <li><NavLink to={`${match.url}/css`}>CSS</NavLink></li>
-        <li><NavLink to={`${match.url}/javascript`}>JavaScript</NavLink></li>
+        <li><NavLink to={`${match.url}/core`}>Core</NavLink></li>
+        <li><NavLink to={`${match.url}/elective`}>Elective</NavLink></li>
+        <li><NavLink to={`${match.url}/accelerated`}>Accelerated</NavLink></li>
       </ul>
     </div>
     
     {}
     <Route exact path={match.path} render={() => <Redirect to={`${match.path}/html`} />} />
-    <Route path={`${match.path}/html`} render={()=> <CourseContainer data = {HTMLCourses} />} />
-    <Route path={`${match.path}/css`} render={()=> <CourseContainer data = {CSSCourses} />} />
-    <Route path={`${match.path}/javascript`} render={()=> <CourseContainer data = {JSCourses} />} />
+    <Route path={`${match.path}/core`} render={()=> <CourseContainer data = {HTMLCourses} />} />
+    <Route path={`${match.path}/elective`} render={()=> <CourseContainer data = {CSSCourses} />} />
+    <Route path={`${match.path}/accelerated`} render={()=> <CourseContainer data = {JSCourses} />} />
   </div>
 );
 

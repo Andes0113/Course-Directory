@@ -1,116 +1,80 @@
 export const CSSCourses = [
   {
-    title: "CSS Basics",
-    description: "CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites.",
-    img_src:"https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png",
+    title: "Anatomy and Physiology Honors",
+    description: "This full year honors level course will encompass a comprehensive study of human and comparative anatomy and physiology while simultaneously providing students with a pre-med focus, including academic rigor, clinical experience, laboratory exercises and guest speakers.",
+    img_src:"https://www.canyonville.net/wp-content/uploads/2014/10/Anatomy.jpg",
     id: "css-1"
   },
   {
-    title: "CSS Selectors",
-    description: "In this course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_css_selectors_stage01.png",
+    title: "Marine Science",
+    description: "This year long course integrates life science, Earth science and physical science together to foster a deeper understanding of the ocean. Students will study oceanic organisms and the physical characteristics of the ocean while using STEM practices. Students will track animals, use real time data from NASA and NOAA and even engineer a tool for ocean remediation.",
+    img_src: "https://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bcc7.png",
     id: "css-2"
-  },
-  {
-    title: "Responsive Layouts",
-    description: "Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. In these lessons, we're going to use the foundational principles of responsive design as a framework for thinking about page layout. By the end, you should have a better understanding of how to approach common decisions in responsive design.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges-CSS-ResponsiveLayouts-stage3.png",
-    id: "css-3"
-  },
-  {
-    title: "CSS Flexbox Layout",
-    description: "Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png",
-    id: "css-4"
-  },
-  {
-    title: "CSS Transitions and Transforms",
-    description: "CSS transitions and transforms can create simple animations that enhance user interactions in websites and apps. In this course, you'll build an interactive image gallery using CSS transitions and transforms.",
-    img_src: "https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-02.png",
-    id: "css-5"
-  },
-  {
-    title: "Bootstrap 4 Basics",
-    description: "Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time.",
-    img_src: "https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png",
-    id: "css-6"
   }
   ];
   
 export const HTMLCourses =[
     {
-      title: "How to Make a Website",
-      description: "If you’ve never built a website before and you have no coding or design experience, this is the place to start. In this project, we learn how to build a modern portfolio website for desktops, tablets, and mobile devices. We start with basic HTML and CSS syntax. Next, we learn how to build custom web pages with an image gallery and contact page. Finally, we walk through how to share a website live on the web.",
-      img_src: "https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage02.png",
+      title: "Biology",
+      description: "Biology is an introductory study of the concepts of life and life processes. The students study prokaryotic cellular anatomy and physiology, eukaryotic cellular anatomy and physiology, cellular metabolism and energy, cellular mitosis and meiosis, basic genetics, body systems, organs, ecology, and taxonomy and classification.",
+      img_src: "https://ccweb.imgix.net/https%3A%2F%2Fccweb.imgix.net%2Fhttps%253A%252F%252Fd3f1iyfxxz8i1e.cloudfront.net%252Fcourses%252Fcourse_image%252Fdebe3b44a369.jpg%3Fauto%3Dformat%26cs%3Dstrip%26fit%3D%26h%3D710%26ixlib%3Dphp-3.3.0%26w%3D400%26s%3Dd9a6f0c406613c39afa536a18550543b?auto=format&ixlib=php-3.3.0&s=a2bc7fc88f11a6655e4826c017ad633f",
       id: "html-1"
     },
     {
-      title: "HTML Forms",
-      description: "The web is a two-way communication medium. There’s lots of HTML elements for displaying data and producing output, and conversely, there’s also lots of HTML elements for accepting input. Accepting input from the user means creating web forms. In this course, we’ll learn about all the most important form elements that web professionals use on a daily basis.",
-      img_src: "https://achievement-images.teamtreehouse.com/badges_html_forms_stage1.png",
+      title: "Biology Honors",
+      description: "Biology Honors is a comprehensive study of the concepts of life and life processes. This course delves into the same subject areas of Biology, but with more depth, a greater degree of analysis, and an emphasis on life processes at the molecular and cellular level. ",
+      img_src: "https://lifesci.rutgers.edu/images/modules/cbn-welcome_v2.jpg",
       id: "html-2"
     },
     {
-      title: "HTML Video and Audio",
-      description: "Text and images have always been the foundation of web content, but more than ever, video and audio are also a part of that content mix. Fortunately, we can now create standards-based video and audio players that don't require the use of plugins. Adding video and audio to a webpage is almost as easy as adding an image or formatting some text.",
-      img_src: "https://achievement-images.teamtreehouse.com/badges-html-videoaudio-stage1.png",
+      title: "Chemistry",
+      description: "This course studies the fundamental relationship between the structure and properties of matter. Students will investigate matter at a subatomic level to study basic theories behind its behavior and relate chemical principles to everyday life. ",
+      img_src: "https://lh3.googleusercontent.com/proxy/K72B_mpD-2iROkLlFUXeVdL7Hd3mTGBXEoteNax3uZaV8jOvjJlPEmwwSxwU3H04VzAP5mvdHMWjQEK4TZnTot1b0svLBWAe4RxrDTuhLOc-f-BK9uZMuTM",
       id: "html-3"
     },
     {
-      title: "SVG Basics",
-      description: "Scalable Vector Graphics (SVG) is an XML markup language for creating two-dimensional images using vectors. This is different from traditional raster-based image formats that use pixels, like JPEG and PNG. When used on web pages, SVG images provide an infinite level of detail, so they look sharp regardless of screen size or pixel density. ",
-      img_src: "https://achievement-images.teamtreehouse.com/badges-html-svg-stage1.png",
+      title: "Chemistry Honors",
+      description: "This course is designed to be an advanced high school science course and should be considered a prerequisite for AP Chemistry. This rigorous course will cover the basic principles of chemistry with an emphasis on the mathematical and laboratory component of chemistry.",
+      img_src: "https://lh3.googleusercontent.com/proxy/-5wA5RFeaERN-PEgTISir6nBCaTQwEGj1mUxRlNk0FR-BmZax8Zzi1znLNTcLiVSPYD5fbWXZhEgT2Fy2BnrDsVF-tg_j0a8ToBsPX3-Kvrwo-DE74fTl8Y",
       id: "html-4"
     },
     {
-      title: "Responsive Images",
-      description: "Using the new source-set and sizes attributes, and the new picture element, it's possible to create images that behave better in a responsive design. These new pieces of markup allow us to deliver the right image to the right device, based on resolution, pixel density, and other factors we define. This will help web pages load faster and look better, and the most capable devices will get the best looking images possible.",
-      img_src: "https://achievement-images.teamtreehouse.com/badges_html_respimages_stage2.png",
+      title: "Physics",
+      description: "Physics explores the relationship between matter and energy. Students learn the physical concepts and their application to real and ideal situations. Physics helps develop logical deductive processes and problem solving skills. Topics include motion, mechanics, momentum, kinetic energy, potential energy, light energy, optics, sound, electricity, and electromagnetism.",
+      img_src: "https://lh3.googleusercontent.com/proxy/VXZ4F9Cm4pjlaj2PeIxnCEyXg3nWykpK62VD5fFlKP1eY4hnpyvmW3ZPPVG596FwvVXzrpGVrqq-8WFx3F9xYGUydySPg54JaWcuk0c0w2YrM_597plm6hBNQKoKS7uPeYVVRh8H4ZUC4A",
       id: "html-5"
     },
     {
-      title: "Introduction to HTML and CSS",
-      description: "Get started creating web pages with HTML and CSS, the basic building blocks of web development. HTML, or Hypertext Markup Language, is a standard set of tags you will use to tell the web browser how the content of your web pages and applications are structured. Use CSS, or Cascading Style Sheets, to select HTML tags and tell the browser what your content should look like. ",
-      img_src: "https://achievement-images.teamtreehouse.com/badges_intro_to_html_css_stage-01.png",
+      title: "Physics Honors",
+      description: "Physics Honors involves the study of the forces and laws of nature affecting matter, including equilibrium, motion, momentum, relationships between matter and energy, velocity, acceleration, vectors, and planetary mechanics. Students study the properties and behavior of light and sound waves, magnetic properties and currents, and atomic and nuclear physics.",
+      img_src: "https://i2.wp.com/physics-labs.com/wp-content/uploads/2018/11/cropped-PhysicsLabs-1.png?fit=400%2C400&ssl=1",
       id: "html-6"
     }
   ];
   
 export const JSCourses = [
   {
-    title:"JavaScript Basics",
-    description:"JavaScript is a programming language that drives the web: from front-end user interface design, to backend server-side programming, you'll find JavaScript at every stage of a web site and web application. In this course, you'll learn the fundamental programming concepts and syntax of the JavaScript programming language.",
-    img_src:"https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage1.png",
+    title:"AP Biology",
+    description:"AP Biology will focus on an in-depth study of the major themes of genetics and evolution (Big Idea #1), biochemistry, metabolism, and energy (Big Idea #2), biochemistry, cell signal transduction pathways and genetics (Big Idea #3), and ecology and the interaction between biological systems (Big Idea #4). Students will learn and apply problem-solving skills in Chi Square Analysis (genetics and allele evolution), Hardy-Weinberg Analysis (genetics and population frequency), Population and Logistic Growth Models and Carrying Capacity (ecology and evolution). ",
+    img_src:"https://www.sedelco.org/cms/lib/PA01001902/Centricity/Domain/770/YOOOOOOOOO.jpg",
     id: "js-1"
   },
   {
-    title:"JavaScript Loops, Arrays and Objects",
-    description:"Storing, tracking and handling data is a large part of computer programming. Arrays provide a method for storing multiple values into a single variable. That makes an array a convenient way to pass around a list of items.",
-    img_src:"https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage5.png",
+    title:"AP Chemistry",
+    description:"This course is designed to continue the student’s education in chemistry at an advanced level leading to the Advanced Placement Examination. The emphasis is on basic fundamentals of modern chemistry and the skills of chemical mathematics involved in stoichiometry and chemical equilibrium. The very significant laboratory component of the course is designed to reinforce lecture topics, stimulate the student to apply the fundamentals of chemistry to new problem situations, and to develop the student’s technical writing skills.",
+    img_src:"https://static.memrise.com/img/400sqf/from/uploads/course_photos/54846000140701131248.jpg",
     id: "js-2"
   },
   {
-    title: "jQuery Basics",
-    description: "jQuery Basics covers why you'd want to use jQuery, what it is and how to include it in your projects. You'll build several projects over the course to give you the confidence to integrate jQuery in your own projects and add that level of flair and interactivity to any site you work on.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage1.png",
+    title: "AP Physics C",
+    description: "AP Physics C parallels an introductory college physics course for scientists and engineers. The AP C syllabus covers all areas of Mechanics. Laboratory work and data analysis are integral to the study of physics and are included in the course.",
+    img_src: "https://www.frostscience.org/wp-content/uploads/2019/08/homeschool-session-physics-400x400.jpg",
     id: "js-3"
   },
   {
-    title: "AJAX Basics",
-    description: "AJAX is an important front-end web technology that lets JavaScript communicate with a web server. It lets you load new content without leaving the current page, creating a better, faster experience for your web site's visitors. In this course, you'll learn how AJAX works and how you can use JavaScript to communicate with a web server.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_AJAXBasics_Stage3.png",
+    title: "AP Environmental Science",
+    description: "The AP Environmental Science course is designed to be the equivalent of a first year, introductory college course in environmental science. The goal of the course is to provide students with the scientific principles, concepts and methodologies required to understand the interrelationships of the natural world. They will also be able to identify and analyze environmental problems both natural and human-made, to evaluate the relative risks associated with these problems, and to examine alternative solutions for resolving and / or preventing them.",
+    img_src: "https://media.sciencephoto.com/image/c0498462/400wm",
     id: "js-4"
-  },
-  {
-    title: "Interactive Web Pages with JavaScript",
-    description: "In this course we’ll create a to-do list application using JavaScript alone, without using any third party libraries. You’ll get to grips with manipulating and traversing the DOM and adding event handlers to web page elements. The things that you can do with JavaScript are always increasing and this course will give you a solid footing going forward.",
-    img_src: "https://achievement-images.teamtreehouse.com/bagdes-javascript-interactiveweb-stage-12.png",
-    id: "js-5"
-  },
-  {
-    title: "Node.js Basics",
-    description: "In this course we will create a command line application to retrieve user's profile information from the Treehouse website. We'll be writing our application in JavaScript to run on the Node.js platform.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_nodeBasics_Stage1.png",
-    id: "js-6"
   }
 ];
