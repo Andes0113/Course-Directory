@@ -8,7 +8,7 @@ export const CSSCourses = [
   {
     title: "Marine Science",
     description: "This year long course integrates life science, Earth science and physical science together to foster a deeper understanding of the ocean. Students will study oceanic organisms and the physical characteristics of the ocean while using STEM practices. Students will track animals, use real time data from NASA and NOAA and even engineer a tool for ocean remediation.",
-    img_src: "https://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bcc7.png",
+    img_src: "https://assets.change.org/photos/1/ol/ff/FoOlffAJfEhQamJ-400x400-noPad.jpg?1490147017",
     id: "css-2"
   }
   ];
@@ -35,7 +35,7 @@ export const HTMLCourses =[
     {
       title: "Chemistry Honors",
       description: "This course is designed to be an advanced high school science course and should be considered a prerequisite for AP Chemistry. This rigorous course will cover the basic principles of chemistry with an emphasis on the mathematical and laboratory component of chemistry.",
-      img_src: "https://lh3.googleusercontent.com/proxy/-5wA5RFeaERN-PEgTISir6nBCaTQwEGj1mUxRlNk0FR-BmZax8Zzi1znLNTcLiVSPYD5fbWXZhEgT2Fy2BnrDsVF-tg_j0a8ToBsPX3-Kvrwo-DE74fTl8Y",
+      img_src: "https://i.pinimg.com/originals/44/5f/2b/445f2ba941f0a331726684fd65425373.jpg",
       id: "html-4"
     },
     {
